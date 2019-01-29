@@ -55,12 +55,11 @@
 * * *
 - - -
 
-```mermaid
-graph TD
-client1-->|read / write|SVN((SVN server))
-client2-->|read only|SVN
-client3-->|read / write|SVN
-client4-->|read only|SVN
-client5(...)-->SVN
-SVN---|store the data|sharedrive
-```
+flow
+st=>start: Start
+op=>operation: Your Operation
+cond=>condition: Yes or No?
+e=>end
+st->op->cond
+cond(yes)->e
+cond(no)->op
