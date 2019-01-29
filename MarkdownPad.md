@@ -1,11 +1,4 @@
-st=>start: Start
-e=>end
-op=>operation: My Operation
-cond=>condition: Yes or No?
 
-st->op->cond
-cond(yes)->e
-cond(no)->op
 # 标题
 ## 标题
 ### 标题
@@ -14,6 +7,10 @@ cond(no)->op
 =
 二级标题
 -
+
+## 换行
+第一行（至少两个空格）  
+第二行
 
 >引用
 >
