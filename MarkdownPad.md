@@ -1,4 +1,6 @@
-
+```
+pip3 install -r requirements.txt
+```
 # 标题
 ## 标题
 ### 标题
